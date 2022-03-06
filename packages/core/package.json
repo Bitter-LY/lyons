@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/core.git",
+    "url": "git+https://github.com/Bitter-LY/canvas2d.git",
     "directory": "packages/core"
   },
   "license": "MIT"

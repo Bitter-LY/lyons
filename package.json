@@ -1,15 +1,14 @@
 {
+  "private": true,
   "name": "canvas-2d",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "node scripts/dev.js",
     "build": "node scripts/build.js",
     "serve": "serve",
     "preinstall": "node ./scripts/preinstall.js"
   },
-  "license": "MIT",
   "devDependencies": {
     "@canvas2d/core": "workspace:*",
     "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
