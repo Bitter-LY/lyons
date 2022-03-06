@@ -1,0 +1,26 @@
+{
+  "name": "@canvas2d/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "dist/core.esm-bundler.js",
+  "types": "dist/core.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "buildOptions": {
+    "name": "Canvas2dCore",
+    "formats": [
+      "esm-bundler",
+      "esm-browser",
+      "cjs",
+      "global"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/core.git",
+    "directory": "packages/core"
+  },
+  "license": "MIT"
+}
