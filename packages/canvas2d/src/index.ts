@@ -5,4 +5,4 @@ function logs(): void {
   console.log('haha')
 }
 
-export default logs
+export { logs }

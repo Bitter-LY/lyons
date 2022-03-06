@@ -12,7 +12,6 @@
   "buildOptions": {
     "name": "Canvas2d",
     "formats": [
-      "esm-bundler",
       "cjs",
       "global",
       "esm-browser"

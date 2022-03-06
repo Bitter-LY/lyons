@@ -11,7 +11,6 @@
   "buildOptions": {
     "name": "Canvas2dCore",
     "formats": [
-      "esm-bundler",
       "esm-browser",
       "cjs",
       "global"
