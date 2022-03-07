@@ -17,11 +17,22 @@
       "global"
     ]
   },
+  "keywords": [
+    "lyons"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bitter-LY/lyons.git",
     "directory": "packages/core"
   },
   "license": "MIT",
-  "author": "YuanZhaoYang"
+  "author": "YuanZhaoYang",
+  "bugs": {
+    "url": "https://github.com/Bitter-LY/lyons/issues"
+  },
+  "homepage": "https://github.com/Bitter-LY/lyons#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
 }
