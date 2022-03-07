@@ -1,5 +1,5 @@
 {
-  "name": "@canvas2d/core",
+  "name": "@lyons/core",
   "version": "1.0.0",
   "main": "index.js",
   "module": "dist/core.esm-bundler.js",
@@ -9,8 +9,9 @@
     "dist"
   ],
   "buildOptions": {
-    "name": "Canvas2dCore",
+    "name": "LyonsCore",
     "formats": [
+      "esm-bundler",
       "esm-browser",
       "cjs",
       "global"
@@ -18,8 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bitter-LY/canvas2d.git",
+    "url": "git+https://github.com/Bitter-LY/lyons.git",
     "directory": "packages/core"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": "YuanZhaoYang"
 }

@@ -1,4 +1,4 @@
-import { CEventTarget } from '@canvas2d/core'
+import { CEventTarget } from '@lyons/core'
 
 CEventTarget
 function logs(): void {

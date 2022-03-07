@@ -21,8 +21,8 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "paths": {
-      "@canvas2d/*": ["packages/*/src"],
-      "canvas2d": ["packages/canvas2d/src"]
+      "@lyons/*": ["packages/*/src"],
+      "lyons": ["packages/lyons/src"]
     }
   },
   "include": ["packages/global.d.ts", "packages/*/src"]

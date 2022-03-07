@@ -1,26 +1,28 @@
 {
-  "name": "canvas2d",
+  "name": "lyons",
   "version": "1.0.0",
   "main": "index.js",
-  "module": "dist/canvas2d.esm-bundler.js",
-  "types": "dist/canvas2d.d.ts",
+  "module": "dist/lyons.esm-bundler.js",
+  "types": "dist/lyons.d.ts",
   "files": [
     "index.js",
     "index.mjs",
     "dist"
   ],
   "buildOptions": {
-    "name": "Canvas2d",
+    "name": "Lyons",
     "formats": [
       "cjs",
       "global",
-      "esm-browser"
+      "esm-browser",
+      "esm-bundler"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bitter-LY/canvas2d.git"
+    "url": "git+https://github.com/Bitter-LY/lyons.git"
   },
+  "author": "YuanZhaoYang",
   "license": "MIT",
   "dependencies": {}
 }

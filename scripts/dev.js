@@ -3,7 +3,7 @@ const nodePolyfills = require('@esbuild-plugins/node-modules-polyfill')
 const { resolve, relative } = require('path')
 const args = require('minimist')(process.argv.slice(2))
 
-const target = args._[0] || 'canvas2d'
+const target = args._[0] || 'lyons'
 const format = args.f || 'global'
 const pkg = require(resolve(__dirname, `../packages/${target}/package.json`))
 
