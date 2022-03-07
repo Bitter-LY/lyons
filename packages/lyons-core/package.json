@@ -1,13 +1,15 @@
 {
-  "name": "@lyons/core",
+  "name": "@lyons/lyons-core",
+  "description": "@lyons/lyons-core",
   "version": "1.0.0",
   "main": "index.js",
-  "module": "dist/core.esm-bundler.js",
-  "types": "dist/core.d.ts",
+  "module": "dist/lyons-core.esm-bundler.js",
+  "types": "dist/lyons-core.d.ts",
   "files": [
     "index.js",
     "dist"
   ],
+  "sideEffects": false,
   "buildOptions": {
     "name": "LyonsCore",
     "formats": [
@@ -23,16 +25,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bitter-LY/lyons.git",
-    "directory": "packages/core"
+    "directory": "packages/lyons-core"
   },
   "license": "MIT",
   "author": "YuanZhaoYang",
   "bugs": {
-    "url": "https://github.com/Bitter-LY/lyons/issues"
+    "url": "https://github.com/Bitter-LY/lyons-core/issues"
   },
-  "homepage": "https://github.com/Bitter-LY/lyons#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "description": ""
+  "homepage": "https://github.com/Bitter-LY/lyons-core#readme"
 }

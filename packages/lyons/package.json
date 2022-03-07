@@ -18,6 +18,9 @@
       "esm-bundler"
     ]
   },
+  "keywords": [
+    "lyons"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bitter-LY/lyons.git"

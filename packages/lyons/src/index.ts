@@ -1,4 +1,4 @@
-import { CEventTarget } from '@lyons/core'
+import { CEventTarget } from '@lyons/lyons-core'
 
 CEventTarget
 function logs(): void {
